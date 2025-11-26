@@ -1,0 +1,6 @@
+e = int(input("Edad: "))
+if e<=12: f="Infancia"
+elif e<=17: f="Adolescencia"
+elif e<=59: f="Adultez"
+else: f="Vejez"
+print(f)

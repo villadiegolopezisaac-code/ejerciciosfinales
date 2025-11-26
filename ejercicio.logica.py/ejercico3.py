@@ -1,0 +1,6 @@
+t = float(input("Temp: "))
+if t<0: print("Muy frío")
+elif t<10: print("Frío")
+elif t<20: print("Tibio")
+elif t<30: print("Caliente")
+else: print("Muy caliente")

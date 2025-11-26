@@ -1,0 +1,5 @@
+t = input("Tipo (A,B,AB,O): ").upper()
+if t=="O": print("Dona a todos")
+elif t=="A": print("Dona a A y AB")
+elif t=="B": print("Dona a B y AB")
+else: print("Dona solo a AB")

@@ -1,0 +1,5 @@
+e = int(input("Edad: "))
+c = float(input("Costo base: "))
+if e < 21: print("No puede alquilar")
+elif 21 <= e < 25: print("Total:", c + c*0.15)
+else: print("Total:", c)

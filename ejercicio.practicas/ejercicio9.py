@@ -1,0 +1,6 @@
+n = int(input("Nota: "))
+if n<50: print("Muy deficiente")
+elif n<65: print("Deficiente")
+elif n<75: print("Regular")
+elif n<90: print("Buena")
+else: print("Excelente")
