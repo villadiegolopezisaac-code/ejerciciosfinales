@@ -1,0 +1,11 @@
+#algoritmo que nos permita contar las vocales de la palabra tecngnologa
+
+palabra = input("Ingrese una palabra: ")
+vocales = "aeiou"
+contador = 0
+
+for leta in palabra.lower():
+    if leta.lower() in vocales:
+        contador += 1
+
+print("El número de vocales en la palabra es:", contador)

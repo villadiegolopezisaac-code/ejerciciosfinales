@@ -1,0 +1,3 @@
+# impirmir un triangulo de asteriscos de 5 lineas
+for i in range(1, 6):
+    print("*" * i)

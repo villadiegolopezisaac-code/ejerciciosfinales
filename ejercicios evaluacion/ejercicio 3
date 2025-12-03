@@ -1,0 +1,9 @@
+#crear un algoritmo en con ciclo for en python que imprima las tablas de multiplicar
+num1 = float(input("ingrese el primer numero"))
+num2 = float(input("ingrese el segundo nunmero"))
+
+for i in range(0, 10):
+    print(f"Tabla de multiplicar del {i}:")
+    print(f"{num1} x {i} = {num1 * i}")
+    print(f"{num2} x {i} = {num2 * i}")
+    print("-----------------------")

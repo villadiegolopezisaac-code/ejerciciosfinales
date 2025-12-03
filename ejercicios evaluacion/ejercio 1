@@ -1,0 +1,16 @@
+
+# utilizando funciones y ciclo for para determinar si una lista está ordenada
+
+def esta_ordenada(lista):
+    for i in range(len(lista) - 1):
+        if lista[i] > lista[i + 1]:
+            return False
+    return True
+
+# ejemplo de uso:
+mi_lista = [1, 2, 2, 4, 5]
+
+if esta_ordenada(mi_lista):
+    print("La lista está ordenada")
+else:
+    print("La lista NO está ordenada")
